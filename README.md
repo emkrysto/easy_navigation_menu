@@ -7,7 +7,7 @@ The Purposeof this project is to add a php module with navigation bar
 
 ## Technologies
 <ul>
-PHP    v7.0
+    <li>PHP    v7.0</li>
 JS
 JQuery    v1.12.4 
 CSS/SASS
