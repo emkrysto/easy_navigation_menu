@@ -7,11 +7,10 @@ The Purposeof this project is to add a php module with navigation bar
 
 ## Technologies
 <ul>
-    <li>PHP    v7.0</li>
-JS
-JQuery    v1.12.4 
-CSS/SASS
-JQueryUI    v1.12.1
+    <li>PHP v7.0</li>
+    <li>JQuery v1.12.4</li>
+    <li>CSS/SASS</li>
+    <li>JQueryUI v1.12.1</li>
 </ul>
 
 ## startup: Friendly Startup Configuration
