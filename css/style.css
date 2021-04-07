@@ -1,0 +1,63 @@
+body {
+    font-family: "Thimes New Roman", Times, serif;
+    font-size: 17px;
+    padding: 0;
+	margin: 0;
+}
+
+header {
+	position: -webkit-sticky;
+	position: sticky;
+    width: 100%;
+    height: auto;
+	top: 0;
+	clear: both;
+}
+
+main {
+    padding: 10px;
+    width: auto;
+	min-height: 300px;
+	color: black;
+	clear: both;
+}
+
+	main h1 {
+		font-size: 24px;
+		margin: 2px;
+	}
+
+	main h2 {
+		font-size: 14px;
+		margin: 2px;
+	}
+
+footer {
+	font-size : 12px;
+	padding: 5px;
+	color: #c2c2c2;
+	background-color: transparent;
+	border-top: 31px solid #202022; 
+	font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+	clear: both;
+
+	background: rgb(17,42,85);
+	background: -moz-linear-gradient(265deg, rgba(17,42,85,1) 0%, rgba(50,74,116,1) 50%, rgba(17,42,85,1) 100%);
+	background: -webkit-linear-gradient(265deg, rgba(17,42,85,1) 0%, rgba(50,74,116,1) 50%, rgba(17,42,85,1) 100%);
+	background: linear-gradient(265deg, rgba(17,42,85,1) 0%, rgba(50,74,116,1) 50%, rgba(17,42,85,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#112a55",endColorstr="#112a55",GradientType=1);
+
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4); 
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
+}
+
+	footer p {
+		float: left
+		margin: 2px;
+	} 
+
+
+
+

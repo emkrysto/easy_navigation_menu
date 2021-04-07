@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.nav-normal {
+  background: #2c2d33;
+  background: -moz-linear-repeating-gradient(0deg, #2c2d33 0%, #5c5c5c 100%);
+  background: -webkit-repeating-linear-gradient(0deg, #2c2d33 0%, #5c5c5c 100%);
+  background: repeating-linear-gradient(0deg, #2c2d33 0%, #5c5c5c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$colorA,endColorstr=$colorB,GradientType=1);
+}
+
+.nav-repeat {
+  background: #2c2d33;
+  background: -moz-linear-repeating-gradient(0deg, #2c2d33 0px, #5c5c5c 31px);
+  background: -webkit-repeating-linear-gradient(0deg, #2c2d33 0px, #5c5c5c 31px);
+  background: repeating-linear-gradient(0deg, #2c2d33 0px, #5c5c5c 31px);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$colorA,endColorstr=$colorB,GradientType=1);
+}
+
+.nav-active:link {
+  text-decoration: underline;
+}
+
+nav ul ul .nav-arrow:after {
+  position: absolute;
+  top: -7px;
+  right: -11px;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  vertical-align: sub;
+  font-size: 30px;
+  color: #c4c4c4;
+  content: "🢒";
+}
+
+nav {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  width: 100%;
+  padding: 0;
+  float: left;
+  display: inline;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+nav ul ul {
+  display: none;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav .mainmenu, .mainmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .mainmenu ul li {
+  clear: both;
+}
+
+nav .mainmenu > li {
+  float: left;
+  position: relative;
+}
+
+nav .mainmenu > li li {
+  position: relative;
+}
+
+nav .mainmenu > li ul {
+  position: absolute;
+  left: 0;
+}
+
+nav .mainmenu > li ul li ul {
+  position: absolute;
+  left: 100%;
+  top: 0px;
+}
+
+nav .mainmenu {
+  margin: 0px 0px;
+}
+
+nav .mainmenu > li > a {
+  display: inline-block;
+  padding: 8px 8px;
+  color: #ebebeb;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: sub;
+}
+
+nav .mainmenu > li:hover > a {
+  color: #000000;
+  background-color: #ebebeb;
+}
+
+nav .mainmenu ul {
+  position: relative;
+  background-color: #ebebeb;
+}
+
+nav .mainmenu ul li > a {
+  color: #000000;
+  padding: 8px 12px 8px 12px;
+  display: block;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+nav .mainmenu ul li:hover > a {
+  color: #000000;
+  background-color: #0090ff;
+}
+/*# sourceMappingURL=nav.css.map */

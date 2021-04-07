@@ -1,0 +1,106 @@
+$main__grad--hover: #f3f3f3 0%, #f3f3f3 0%
+$main__grad--colorA: #2c2d33
+$main__grad--colorB: #5c5c5c
+
+$main__color: #ebebeb
+$main__color--hover: #000000
+$main__bg--hover: #ebebeb
+$main__padding: 8px 8px
+
+$sub__color: #000000
+$sub__color--hover: #000000
+$sub__bg--hover:  #0090ff
+$sub__bg: #ebebeb
+$sub__padding: 8px 12px 8px 12px
+
+$arrow__color: #c4c4c4
+$arrow__content: "\1F892"
+
+@mixin gradient($direction, $start, $end, $colorA, $colorB)
+	background: $colorA
+	background: -moz-linear-repeating-gradient(0deg, $colorA $start, $colorB $end)
+	background: -webkit-repeating-linear-gradient(0deg, $colorA $start, $colorB $end)
+	background: repeating-linear-gradient(0deg, $colorA $start, $colorB $end)
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$colorA,endColorstr=$colorB,GradientType=1)
+
+@mixin haddow()
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4)
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4)
+
+.nav-normal
+	@include gradient(top, 0% , 100%, $main__grad--colorA, $main__grad--colorB)
+.nav-repeat
+	@include gradient(top, 0px, 31px, $main__grad--colorA, $main__grad--colorB)
+
+.nav-active:link
+	text-decoration: underline
+
+nav ul ul .nav-arrow:after	
+	position: absolute
+	top: -7px
+	right: -11px
+	display: inline
+	margin: 0
+	padding: 0
+	vertical-align: sub
+	font-size: 30px
+	color: $arrow__color
+	content: $arrow__content
+
+nav
+	font-family: Helvetica, Arial, sans-serif
+	font-size: 13px
+	width: 100%
+	padding: 0
+	float: left
+	display: inline
+	@include haddow()
+nav ul ul 
+	display: none
+	@include haddow()
+nav ul li:hover > ul 
+	display: block
+nav .mainmenu, .mainmenu ul
+	list-style: none 
+	margin: 0
+	padding: 0	
+nav .mainmenu ul li 
+	clear: both
+nav .mainmenu > li 
+	float: left
+	position: relative
+nav .mainmenu > li li 
+	position: relative
+nav .mainmenu > li ul 
+	position: absolute
+	left: 0
+nav .mainmenu > li ul li ul 
+	position: absolute
+	left: 100%
+	top: 0px
+nav .mainmenu 
+	margin: 0px 0px
+nav .mainmenu > li > a 
+	display: inline-block
+	padding: $main__padding
+	color: $main__color
+	text-decoration: none
+	white-space: nowrap
+	text-align: center
+	vertical-align: sub
+nav .mainmenu > li:hover > a
+	color: $main__color--hover
+	background-color: $main__bg--hover
+nav .mainmenu ul 
+	position: relative
+	background-color: $sub__bg
+nav .mainmenu ul li > a 
+	color: $sub__color
+	padding: $sub__padding
+	display: block
+	border-radius: 0px
+	text-decoration: none
+nav .mainmenu ul li:hover > a 
+	color: $sub__color--hover
+	background-color: $sub__bg--hover
+	
