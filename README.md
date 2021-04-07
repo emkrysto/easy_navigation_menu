@@ -13,8 +13,9 @@ The Purposeof this project is to add a php module with navigation bar
     <li>CSS/SASS</li>
 </ul>
 
-## startup: Friendly Startup Configuration
-
+## Usag
+Download this complete website template.
+In file index.php you will see how to use NAV modul.
 
 ## License
 
