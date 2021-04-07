@@ -1,5 +1,5 @@
 # easy_navigation_menu
-## So this is kind of classic navigation bar to easy use
+So this is kind of classic navigation bar to easy use
 
 ## Purpose
 The Purposeof this project is to add a php module with navigation bar 
