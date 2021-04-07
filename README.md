@@ -9,8 +9,8 @@ The Purposeof this project is to add a php module with navigation bar
 <ul>
     <li>PHP v7.0</li>
     <li>JQuery v1.12.4</li>
-    <li>CSS/SASS</li>
     <li>JQueryUI v1.12.1</li>
+    <li>CSS/SASS</li>
 </ul>
 
 ## startup: Friendly Startup Configuration
