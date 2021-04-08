@@ -15,7 +15,7 @@ The Purposeof this project is to add a php module with navigation bar
 
 ## Usag
 Download this complete website template. <br />
-In file index.php you will see how to use NAV modul.
+In the index.php file you will see how I added the NAV module.
 
 ## License
 
