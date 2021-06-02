@@ -2,7 +2,7 @@
 So this is kind of classic navigation bar to easy use
 
 ## Purpose
-The Purposeof this project is to add a php module with navigation bar 
+The Purpose of this project is to add a php module with navigation bar 
     to your website easily and quickly.
 
 ## Technologies
